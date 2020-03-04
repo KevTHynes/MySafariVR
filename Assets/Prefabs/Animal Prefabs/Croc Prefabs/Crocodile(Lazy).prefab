@@ -1,0 +1,1796 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &416180016021433267
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180016021433264}
+  m_Layer: 0
+  m_Name: Crocodile_Tail_01_08SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180016021433264
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180016021433267}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.40350994, y: -0.0076505966, z: -1.5099033e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 416180016659077200}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &416180016060030086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180016060030084}
+  - component: {fileID: 416180016060030087}
+  m_Layer: 0
+  m_Name: EatPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &416180016060030084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180016060030086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: -0.069, z: -0.043}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 416180016266933879}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &416180016060030087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180016060030086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0b027736a6b25343aff820c4c19ef36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
+  radius: 1
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 512
+--- !u!1 &416180016069744253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180016069744250}
+  m_Layer: 0
+  m_Name: Crocodile_r_HindLeg_HipSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180016069744250
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180016069744253}
+  m_LocalRotation: {x: -0.38610965, y: 0.64605147, z: 0.65733296, w: 0.038081605}
+  m_LocalPosition: {x: 0.21598877, y: -0.054654785, z: -0.05088585}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180016715117539}
+  m_Father: {fileID: 416180017086780583}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -63.676167, y: -58.827347, z: -132.01405}
+--- !u!1 &416180016075926982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180016075926983}
+  m_Layer: 0
+  m_Name: Crocodile_Neck_TopSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180016075926983
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180016075926982}
+  m_LocalRotation: {x: 0.99441886, y: 1.1584809e-16, z: -0.10550433, w: 7.249625e-17}
+  m_LocalPosition: {x: -0.10930746, y: -3.992646e-16, z: 0.0030937244}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180017360733421}
+  - {fileID: 416180016119173951}
+  m_Father: {fileID: 416180017387222897}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.4244614, y: -173.95245, z: 179.71608}
+--- !u!1 &416180016093691150
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180016093691151}
+  m_Layer: 0
+  m_Name: Crocodile_l_HindLeg_BallSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180016093691151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180016093691150}
+  m_LocalRotation: {x: 7.5464627e-16, y: 0.7071068, z: -7.5464627e-16, w: 0.7071068}
+  m_LocalPosition: {x: -0.04719449, y: 0.0022058168, z: 0.09598928}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180017253024108}
+  m_Father: {fileID: 416180018040897590}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 1.2988608e-13, y: 90, z: 0}
+--- !u!1 &416180016103888718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180016103888719}
+  m_Layer: 0
+  m_Name: Crocodile_r_FrontLeg_ToeSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180016103888719
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180016103888718}
+  m_LocalRotation: {x: 1.2663454e-16, y: -0.11218323, z: -3.6278405e-16, w: 0.9936875}
+  m_LocalPosition: {x: -0.08478802, y: 0.0018093898, z: -0.032359503}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 416180017585907620}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 1.0361483e-14, y: -12.882369, z: -4.5602438e-14}
+--- !u!1 &416180016119173950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180016119173951}
+  m_Layer: 0
+  m_Name: Crocodile_Head_TopSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180016119173951
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180016119173950}
+  m_LocalRotation: {x: 0.009728364, y: 0.009728364, z: 0.7070399, w: 0.7070399}
+  m_LocalPosition: {x: -0.70144624, y: 1.977297e-14, z: -0.040118698}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 416180016075926983}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 1.5765984, z: 90}
+--- !u!1 &416180016144372535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180016144372532}
+  m_Layer: 0
+  m_Name: Crocodile_Spine_01SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180016144372532
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180016144372535}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: 3.9443044e-33, y: 7.105427e-17, z: 0.25502095}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180017863128978}
+  m_Father: {fileID: 416180017086780583}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 87.55938, y: -79.22272, z: 127.70119}
+--- !u!1 &416180016238444975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180016238444972}
+  m_Layer: 0
+  m_Name: Crocodile_Tail_01_02SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180016238444972
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180016238444975}
+  m_LocalRotation: {x: 3.397743e-17, y: 3.881345e-16, z: 0.03134942, w: 0.9995085}
+  m_LocalPosition: {x: -0.29153052, y: -0.031761628, z: 5.827046e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180017481118956}
+  m_Father: {fileID: 416180016776053570}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.11588532, y: -1.8458241, z: 2.191473}
+--- !u!1 &416180016263169194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180016263169195}
+  m_Layer: 0
+  m_Name: Crocodile_r_HindLeg_ToeSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180016263169195
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180016263169194}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.1489341, y: -0.012608849, z: 1.2212454e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 416180017077542318}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &416180016266933878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180016266933879}
+  m_Layer: 0
+  m_Name: Crocodile_Head_JawEndSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180016266933879
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180016266933878}
+  m_LocalRotation: {x: 0.6970532, y: -0, z: -0, w: 0.71701944}
+  m_LocalPosition: {x: -2.7671892e-14, y: 0.0828819, z: 0.59847045}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180016060030084}
+  m_Father: {fileID: 416180017360733421}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 88.38214, y: 0, z: 0}
+--- !u!1 &416180016425740549
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180016425740546}
+  m_Layer: 0
+  m_Name: Crocodile_r_Clavicle_01_01SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180016425740546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180016425740549}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0.11213865, z: 1.7763567e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180017950062153}
+  m_Father: {fileID: 416180016823172811}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!1 &416180016443473537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180016443473550}
+  m_Layer: 0
+  m_Name: Crocodile_Neck_01SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180016443473550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180016443473537}
+  m_LocalRotation: {x: 0.9995997, y: 7.8419766e-17, z: -0.028291628, w: -7.2427304e-16}
+  m_LocalPosition: {x: -0.10930746, y: -1.874274e-17, z: 0.0030937244}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180017387222897}
+  m_Father: {fileID: 416180016823172811}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -2.7420177, y: -176.8635, z: 0.3097229}
+--- !u!1 &416180016567429485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180016567429482}
+  m_Layer: 0
+  m_Name: Crocodile_l_FrontLeg_BallSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180016567429482
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180016567429485}
+  m_LocalRotation: {x: 0.00000023589465, y: 0.78196883, z: 0.0000003101545, w: 0.62331754}
+  m_LocalPosition: {x: -0.0017134544, y: -0.00085161766, z: 0.095223404}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180017456827662}
+  m_Father: {fileID: 416180016666486375}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.37777397, y: 120.87854, z: -0.059791688}
+--- !u!1 &416180016574450026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180016574450027}
+  m_Layer: 0
+  m_Name: Crocodile_l_FrontLeg_KneeSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180016574450027
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180016574450026}
+  m_LocalRotation: {x: -3.0572545e-16, y: -0.6910693, z: -1.4443283e-15, w: 0.7227885}
+  m_LocalPosition: {x: -0.2269207, y: -2.842171e-16, z: -1.7763567e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180016666486375}
+  m_Father: {fileID: 416180017245593900}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.4504125e-14, y: -82.23234, z: -1.5438863e-14}
+--- !u!1 &416180016625105051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180016625105048}
+  m_Layer: 0
+  m_Name: Crocodile_Spine_04SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180016625105048
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180016625105051}
+  m_LocalRotation: {x: 1.4163847e-16, y: 2.220446e-16, z: 2.8605945e-18, w: 1}
+  m_LocalPosition: {x: -0.25502095, y: -3.847051e-17, z: -1.4210854e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180016823172811}
+  m_Father: {fileID: 416180017704492942}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 3.5801744, y: 0.6758913, z: -0.029441416}
+--- !u!1 &416180016659077203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180016659077200}
+  m_Layer: 0
+  m_Name: Crocodile_Tail_01_07SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180016659077200
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180016659077203}
+  m_LocalRotation: {x: -0.022068942, y: 0.0068577104, z: 0.045282748, w: 0.9987069}
+  m_LocalPosition: {x: -0.29341954, y: 0.0015326224, z: 0.00035368706}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180016021433264}
+  m_Father: {fileID: 416180018035760334}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -3.3693752, y: 10.012278, z: 4.6927896}
+--- !u!1 &416180016666486374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180016666486375}
+  m_Layer: 0
+  m_Name: Crocodile_l_FrontLeg_AnkleSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180016666486375
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180016666486374}
+  m_LocalRotation: {x: 0.62869126, y: -0.4013858, z: -0.50390667, w: 0.43556267}
+  m_LocalPosition: {x: -0.20334059, y: -7.105427e-17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180016567429482}
+  m_Father: {fileID: 416180016574450027}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.5586455, y: -127.16957, z: -130.19447}
+--- !u!1 &416180016708016232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180016708016233}
+  m_Layer: 0
+  m_Name: Crocodile_Tail_01_05SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180016708016233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180016708016232}
+  m_LocalRotation: {x: 4.2132898e-17, y: 2.2159511e-16, z: -0.030905772, w: 0.9995223}
+  m_LocalPosition: {x: -0.29338488, y: 0.0022297374, z: 5.86957e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180018035760334}
+  m_Father: {fileID: 416180017681731776}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.5759225, y: 9.345735, z: -4.4950647}
+--- !u!1 &416180016715117538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180016715117539}
+  m_Layer: 0
+  m_Name: Crocodile_r_HindLeg_KneeSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180016715117539
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180016715117538}
+  m_LocalRotation: {x: -2.0161063e-15, y: -0.7241543, z: -1.437068e-15, w: 0.689638}
+  m_LocalPosition: {x: -0.22247174, y: 0, z: 2.4868996e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180017417800054}
+  m_Father: {fileID: 416180016069744250}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 1.2738722e-16, y: -98.9612, z: 1.5059007e-15}
+--- !u!1 &416180016776053573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180016776053570}
+  m_Layer: 0
+  m_Name: Crocodile_Tail_01_01SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180016776053570
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180016776053573}
+  m_LocalRotation: {x: -0.002487822, y: -0.7071024, z: 0.002487822, w: 0.7071024}
+  m_LocalPosition: {x: -2.6108194e-16, y: -0.027781546, z: -0.33564857}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180016238444972}
+  m_Father: {fileID: 416180017086780583}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0.013010796, y: -91.849236, z: 2.1160975}
+--- !u!1 &416180016823172810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180016823172811}
+  m_Layer: 0
+  m_Name: Crocodile_Spine_TopSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180016823172811
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180016823172810}
+  m_LocalRotation: {x: 3.061617e-17, y: -2.220446e-16, z: 1.9714962e-16, w: 1}
+  m_LocalPosition: {x: -0.25502095, y: -9.509653e-17, z: -1.0658141e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180017006035640}
+  - {fileID: 416180016443473550}
+  - {fileID: 416180016425740546}
+  m_Father: {fileID: 416180016625105048}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.5182314, y: -6.824017, z: -0.37257007}
+--- !u!1 &416180017006035643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180017006035640}
+  m_Layer: 0
+  m_Name: Crocodile_l_Clavicle_01_01SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180017006035640
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017006035643}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -7.105427e-17, y: -0.11213865, z: 1.4210854e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180017245593900}
+  m_Father: {fileID: 416180016823172811}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!1 &416180017059410828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180017059410829}
+  - component: {fileID: 416180017059410826}
+  m_Layer: 0
+  m_Name: crocodile_mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180017059410829
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017059410828}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: -0.64747787}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 416180017085309370}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &416180017059410826
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017059410828}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 21eaaf9ccb030a24badde41a5255825a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 6c86c3cbb34c6c145bc45b13acdb30e4, type: 3}
+  m_Bones:
+  - {fileID: 416180018074340418}
+  - {fileID: 416180017086780583}
+  - {fileID: 416180016144372532}
+  - {fileID: 416180017863128978}
+  - {fileID: 416180017704492942}
+  - {fileID: 416180016625105048}
+  - {fileID: 416180016823172811}
+  - {fileID: 416180017006035640}
+  - {fileID: 416180017245593900}
+  - {fileID: 416180016574450027}
+  - {fileID: 416180016666486375}
+  - {fileID: 416180016567429482}
+  - {fileID: 416180017456827662}
+  - {fileID: 416180016425740546}
+  - {fileID: 416180017950062153}
+  - {fileID: 416180017117637498}
+  - {fileID: 416180017982250213}
+  - {fileID: 416180017585907620}
+  - {fileID: 416180016103888719}
+  - {fileID: 416180016443473550}
+  - {fileID: 416180017387222897}
+  - {fileID: 416180016075926983}
+  - {fileID: 416180017360733421}
+  - {fileID: 416180016266933879}
+  - {fileID: 416180016119173951}
+  - {fileID: 416180017649768178}
+  - {fileID: 416180017366526942}
+  - {fileID: 416180018040897590}
+  - {fileID: 416180016093691151}
+  - {fileID: 416180016069744250}
+  - {fileID: 416180016715117539}
+  - {fileID: 416180017417800054}
+  - {fileID: 416180017077542318}
+  - {fileID: 416180016776053570}
+  - {fileID: 416180016238444972}
+  - {fileID: 416180017481118956}
+  - {fileID: 416180017681731776}
+  - {fileID: 416180016708016233}
+  - {fileID: 416180018035760334}
+  - {fileID: 416180016659077200}
+  - {fileID: 416180016021433264}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 416180018074340418}
+  m_AABB:
+    m_Center: {x: 0.022512496, y: 0.19393285, z: -0.8685732}
+    m_Extent: {x: 0.7451145, y: 0.48533475, z: 2.4732413}
+  m_DirtyAABB: 0
+--- !u!1 &416180017077542305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180017077542318}
+  m_Layer: 0
+  m_Name: Crocodile_r_HindLeg_BallSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180017077542318
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017077542305}
+  m_LocalRotation: {x: -2.655154e-16, y: 0.7071068, z: 2.655154e-16, w: 0.7071068}
+  m_LocalPosition: {x: -0.04719449, y: -0.0022058168, z: 0.09598928}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180016263169195}
+  m_Father: {fileID: 416180017417800054}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.6374859, y: 109.73487, z: -0.28484672}
+--- !u!1 &416180017085309363
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180017085309370}
+  - component: {fileID: 416180017085309373}
+  - component: {fileID: 416180017085309372}
+  - component: {fileID: 416180017085309375}
+  - component: {fileID: 416180017085309360}
+  - component: {fileID: 416180017085309361}
+  - component: {fileID: 416180017085309374}
+  m_Layer: 10
+  m_Name: Crocodile(Lazy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &416180017085309370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017085309363}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -65.43, y: 0.11, z: 3.1}
+  m_LocalScale: {x: 3.1631362, y: 3.1631362, z: 3.1631362}
+  m_Children:
+  - {fileID: 416180018074340418}
+  - {fileID: 416180017059410829}
+  - {fileID: 416180017654197159}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &416180017085309373
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017085309363}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 6c86c3cbb34c6c145bc45b13acdb30e4, type: 3}
+  m_Controller: {fileID: 9100000, guid: 13f34ae8e8cff604baa05c73b2680955, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!54 &416180017085309372
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017085309363}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &416180017085309375
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017085309363}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2794251, y: 0.5665853, z: 4.325355}
+  m_Center: {x: -0.0048177866, y: 0.21670775, z: -0.9880117}
+--- !u!114 &416180017085309360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017085309363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c272d259d038c4643a04468562824119, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &416180017085309361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017085309363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 472fef085260482478cdedd2cd15ae93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  is_Active_Croc: 0
+  is_Lazy_Croc: 1
+  eat_Point: {fileID: 416180016060030086}
+  hunting:
+    serializedVersion: 2
+    m_Bits: 512
+  is_Eating: 0
+  walk_Speed: 1.5
+  run_Speed: 6
+  chase_Distance: 30
+  eat_Distance: 4
+  move_After_Eat_Distance: 2
+  wait_Before_Eat: 2
+  patrol_Radius_Min: 10
+  patrol_Radius_Max: 20
+  patrol_For_This_Time: 10
+--- !u!195 &416180017085309374
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017085309363}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.1
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 60
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!1 &416180017086780582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180017086780583}
+  m_Layer: 0
+  m_Name: Crocodile_ROOTSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180017086780583
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017086780582}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.24820623, z: -0.8114302}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180017649768178}
+  - {fileID: 416180016069744250}
+  - {fileID: 416180016144372532}
+  - {fileID: 416180016776053570}
+  m_Father: {fileID: 416180018074340418}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.64629334, y: 0, z: 0}
+--- !u!1 &416180017117637501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180017117637498}
+  m_Layer: 0
+  m_Name: Crocodile_r_FrontLeg_KneeSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180017117637498
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017117637501}
+  m_LocalRotation: {x: 5.6511555e-16, y: -0.6910693, z: 3.0991104e-16, w: 0.7227885}
+  m_LocalPosition: {x: -0.2269207, y: 0, z: -1.4210854e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180017982250213}
+  m_Father: {fileID: 416180017950062153}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 3.7226722e-14, y: -85.66791, z: -6.5392506e-15}
+--- !u!1 &416180017245593903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180017245593900}
+  m_Layer: 0
+  m_Name: Crocodile_l_FrontLeg_HipSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180017245593900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017245593903}
+  m_LocalRotation: {x: 0.8087911, y: 0.18016182, z: -0.041740444, w: 0.558262}
+  m_LocalPosition: {x: -0.118429266, y: -0.094722204, z: 0.07167506}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180016574450027}
+  m_Father: {fileID: 416180017006035640}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 28.928654, y: 161.99786, z: 113.467995}
+--- !u!1 &416180017253024111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180017253024108}
+  m_Layer: 0
+  m_Name: Crocodile_l_HindLeg_ToeSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180017253024108
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017253024111}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.1489341, y: 0.012608849, z: 2.4424906e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 416180016093691151}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &416180017360733420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180017360733421}
+  m_Layer: 0
+  m_Name: Crocodile_Head_JawSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180017360733421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017360733420}
+  m_LocalRotation: {x: -0.32673642, y: -0.32673642, z: 0.62709117, w: 0.62709117}
+  m_LocalPosition: {x: -0.089218184, y: -1.964008e-15, z: 0.03963036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180016266933879}
+  m_Father: {fileID: 416180016075926983}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -80.42395, z: 90}
+--- !u!1 &416180017366526929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180017366526942}
+  m_Layer: 0
+  m_Name: Crocodile_l_HindLeg_KneeSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180017366526942
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017366526929}
+  m_LocalRotation: {x: -3.4833664e-17, y: -0.7241543, z: -2.790491e-15, w: 0.689638}
+  m_LocalPosition: {x: -0.22247174, y: 1.4210854e-16, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180018040897590}
+  m_Father: {fileID: 416180017649768178}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.8973538e-19, y: -90.393196, z: -4.8246997e-17}
+--- !u!1 &416180017387222896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180017387222897}
+  m_Layer: 0
+  m_Name: Crocodile_Neck_02SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180017387222897
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017387222896}
+  m_LocalRotation: {x: 1.896727e-16, y: -4.0874422e-17, z: -3.5214887e-16, w: 1}
+  m_LocalPosition: {x: -0.10930746, y: 1.1318372e-16, z: 0.0030937244}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180016075926983}
+  m_Father: {fileID: 416180016443473550}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.7341058, y: 0.76719224, z: 0.31531528}
+--- !u!1 &416180017417800041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180017417800054}
+  m_Layer: 0
+  m_Name: Crocodile_r_HindLeg_AnkleSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180017417800054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017417800041}
+  m_LocalRotation: {x: -0.2684713, y: -0.17700331, z: -0.1373591, w: 0.93687004}
+  m_LocalPosition: {x: -0.25187394, y: 1.4210854e-16, z: -1.2434498e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180017077542318}
+  m_Father: {fileID: 416180016715117539}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -61.684994, y: -21.552284, z: -1.181777}
+--- !u!1 &416180017456827649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180017456827662}
+  m_Layer: 0
+  m_Name: Crocodile_l_FrontLeg_ToeSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180017456827662
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017456827649}
+  m_LocalRotation: {x: 4.89529e-16, y: -0.11218323, z: 6.3849927e-18, w: 0.9936875}
+  m_LocalPosition: {x: -0.08478802, y: -0.0018093898, z: -0.032359503}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 416180016567429482}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 5.928861e-14, y: -12.882369, z: -5.9114264e-15}
+--- !u!1 &416180017481118959
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180017481118956}
+  m_Layer: 0
+  m_Name: Crocodile_Tail_01_03SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180017481118956
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017481118959}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.2934538, y: -7.105427e-17, z: 5.858103e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180017681731776}
+  m_Father: {fileID: 416180016238444972}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000041250532, y: -1.8489256, z: -2.2064939}
+--- !u!1 &416180017585907623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180017585907620}
+  m_Layer: 0
+  m_Name: Crocodile_r_FrontLeg_BallSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180017585907620
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017585907623}
+  m_LocalRotation: {x: -0.0000002385967, y: 0.78196883, z: -0.00000031372338, w: 0.62331754}
+  m_LocalPosition: {x: -0.0017134544, y: 0.00085161766, z: 0.095223404}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180016103888719}
+  m_Father: {fileID: 416180017982250213}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000005302807, y: 102.882385, z: -0.00004412916}
+--- !u!1 &416180017649768181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180017649768178}
+  m_Layer: 0
+  m_Name: Crocodile_l_HindLeg_HipSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180017649768178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017649768181}
+  m_LocalRotation: {x: -0.64605147, y: 0.38610965, z: 0.038081605, w: 0.65733296}
+  m_LocalPosition: {x: -0.21598877, y: -0.054654785, z: -0.05088585}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180017366526942}
+  m_Father: {fileID: 416180017086780583}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -68.188484, y: 38.65308, z: -30.490412}
+--- !u!1 &416180017654197158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180017654197159}
+  - component: {fileID: 416180017654197157}
+  - component: {fileID: 416180017654197156}
+  m_Layer: 0
+  m_Name: AnimalAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180017654197159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017654197158}
+  m_LocalRotation: {x: -0.84089696, y: -0, z: 0.000000014901159, w: -0.54119533}
+  m_LocalPosition: {x: 0, y: 0.02478744, z: 1.4598051}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 416180017085309370}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &416180017654197157
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017654197158}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &416180017654197156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017654197158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf345b59fa05e9249870a35d2921021f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roar_Clip: {fileID: 8300000, guid: 85b809bdc2166ce4ea9aad981ba10107, type: 3}
+  attack_Clip: {fileID: 0}
+  happy_Clip: {fileID: 0}
+--- !u!1 &416180017681731779
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180017681731776}
+  m_Layer: 0
+  m_Name: Crocodile_Tail_01_04SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180017681731776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017681731779}
+  m_LocalRotation: {x: 3.427769e-15, y: -6.1385874e-17, z: -0.018276164, w: 0.999833}
+  m_LocalPosition: {x: -0.2934297, y: 0.0013189677, z: 5.859519e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180016708016233}
+  m_Father: {fileID: 416180017481118956}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.06757286, y: -1.848139, z: -0.8715535}
+--- !u!1 &416180017704492929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180017704492942}
+  m_Layer: 0
+  m_Name: Crocodile_Spine_03SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180017704492942
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017704492929}
+  m_LocalRotation: {x: 0.7071068, y: 3.5526693e-17, z: -1.2148256e-16, w: 0.7071068}
+  m_LocalPosition: {x: -0.25502095, y: 3.5527136e-17, z: 1.9034436e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180016625105048}
+  m_Father: {fileID: 416180017863128978}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 88.1257, y: 125.32974, z: 125.369804}
+--- !u!1 &416180017863128981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180017863128978}
+  m_Layer: 0
+  m_Name: Crocodile_Spine_02SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180017863128978
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017863128981}
+  m_LocalRotation: {x: -0.7071068, y: 1.2094034e-16, z: 4.2435705e-17, w: 0.7071068}
+  m_LocalPosition: {x: -0.25502095, y: -1.1212788e-16, z: -1.0658141e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180017704492942}
+  m_Father: {fileID: 416180016144372532}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -86.52459, y: -22.099304, z: 23.368229}
+--- !u!1 &416180017950062152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180017950062153}
+  m_Layer: 0
+  m_Name: Crocodile_r_FrontLeg_HipSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180017950062153
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017950062152}
+  m_LocalRotation: {x: 0.18016182, y: 0.8087911, z: -0.558262, w: 0.041740447}
+  m_LocalPosition: {x: 0.118429266, y: -0.094722204, z: 0.07167506}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180017117637498}
+  m_Father: {fileID: 416180016425740546}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 26.283506, y: -122.14063, z: 63.944675}
+--- !u!1 &416180017982250212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180017982250213}
+  m_Layer: 0
+  m_Name: Crocodile_r_FrontLeg_AnkleSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180017982250213
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180017982250212}
+  m_LocalRotation: {x: 0.62869126, y: 0.4013858, z: -0.50390667, w: -0.43556267}
+  m_LocalPosition: {x: -0.20334059, y: -2.1316282e-16, z: -2.4868996e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180017585907620}
+  m_Father: {fileID: 416180017117637498}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -12.235519, y: -141.48561, z: 117.99964}
+--- !u!1 &416180018035760321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180018035760334}
+  m_Layer: 0
+  m_Name: Crocodile_Tail_01_06SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180018035760334
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180018035760321}
+  m_LocalRotation: {x: 2.8484661e-15, y: -1.640395e-17, z: 0.034390874, w: 0.9994085}
+  m_LocalPosition: {x: -0.29343337, y: 0.0012150013, z: 5.867959e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180016659077200}
+  m_Father: {fileID: 416180016708016233}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.640798, y: 9.341551, z: 2.8892882}
+--- !u!1 &416180018040897577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180018040897590}
+  m_Layer: 0
+  m_Name: Crocodile_l_HindLeg_AnkleSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180018040897590
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180018040897577}
+  m_LocalRotation: {x: 0.2684713, y: -0.17700331, z: 0.1373591, w: 0.93687004}
+  m_LocalPosition: {x: -0.25187394, y: 5.684342e-16, z: 2.3092638e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180016093691151}
+  m_Father: {fileID: 416180017366526942}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 56.629776, y: 18.695168, z: 34.608322}
+--- !u!1 &416180018074340421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416180018074340418}
+  m_Layer: 0
+  m_Name: Crocodile_MAINSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416180018074340418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416180018074340421}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416180017086780583}
+  m_Father: {fileID: 416180017085309370}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

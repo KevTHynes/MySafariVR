@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Left Camera
+  - m_LeftCamera
+  - Meat
+  - Fruit
+  - AlphaWolf
+  - Fishy
+  - Waypoint
+  - GreatWhite
+  - Destroypoint
+  - HeldCamera
+  - Inventory Meat
+  - Inventory Camera
+  - Inventory Fruit
+  - CameraLens
+  - AnimalHandler
+  - Inventory Fish
+  - Fish Piece
+  - Meat Piece
+  - Left Button
+  - Right Button
+  - Raycaster
+  - Croc
+  - Bear
+  - Megaladon
+  - Water
+  - Aquarium
+  - Environment
+  - Megpoint
+  - Croc Achievements
+  - Bear Achievements
+  - Wolf Achievements
+  - Marine Achievements
+  - BearLocation
+  - SharkLocation
+  - WolfLocation
+  - Pup
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Food
+  - Animal
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
